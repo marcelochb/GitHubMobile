@@ -116,6 +116,9 @@ export default class Main extends Component {
               <ProfileButton onPress={() => this.handleNavigate(item)}>
                 <ProfileButtonText>Ver perfil</ProfileButtonText>
               </ProfileButton>
+              <SubmitButton>
+                <Icon name="add" size={20} color="#FFF" />
+              </SubmitButton>
             </User>
           )}
         />
