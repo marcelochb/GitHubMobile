@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { isTemplateElement } from '@babel/types';
 import api from '../../services/api';
 
 import {
@@ -45,7 +44,7 @@ export default class User extends Component {
   render() {
     const { navigation } = this.props;
     const { stars } = this.state;
-    const { user } = navigation.getParam('user');
+    const user = navigation.getParam('user');
     return (
       <Container>
         <Header>
@@ -60,8 +59,8 @@ export default class User extends Component {
             <Starred>
               <OwnerAvatar source={{ uri: item.owner.avatar_url }} />
               <Info>
-                <Title />
-                <Author />
+                <Title>{item.name}</Title>
+                <Author>{item.owner.login}</Author>
               </Info>
             </Starred>
           )}
