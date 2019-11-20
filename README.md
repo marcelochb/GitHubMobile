@@ -13,8 +13,6 @@ E exibindo informações dos favoritos de cada usuário registrado.
    - Reactotron;
 
 ![alt text](https://github.com/marcelochb/GitHubMobile/blob/master/assets/IMG_0203.PNG)
-![alt text](https://github.com/marcelochb/GitHubMobile/blob/master/assets/IMG_0204.PNG)
-![alt text](https://github.com/marcelochb/GitHubMobile/blob/master/assets/IMG_0205.PNG)
 
 ## Instruções para testar a aplicação Mobile
 
