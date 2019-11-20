@@ -1,8 +1,16 @@
-# GoStack - BootCamp
+# GoStack 8 - BootCamp
 ## Mobile with React Native
 ### FrontEnd for iOS & Android
 Aplicativo que comsome a api do GitHub, salvando na LocalStorage do celular.
 E exibindo informações dos favoritos de cada usuário registrado.
+
+## Recursos utilizados para desenvolver:
+   - Axios;
+   - MaterialUI (icons);
+   - Yup;
+   - Styled-Component;
+   - Componentização;
+   - Reactotron;
 
 ![alt text](https://github.com/marcelochb/GitHubMobile/blob/master/assets/IMG_0203.PNG)
 ![alt text](https://github.com/marcelochb/GitHubMobile/blob/master/assets/IMG_0204.PNG)
